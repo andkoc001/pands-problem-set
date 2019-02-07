@@ -4,6 +4,7 @@
 # Date of creation: 07-02-2019
 # Last update: 07-02-2019
 
+<<<<<<< HEAD
 # Description: program asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
 
 ###
@@ -26,3 +27,5 @@ while i <= input_number:
 
 # Prins answer on screen
 print ("The sum of all numbers between 1 and",input_number, "equals:",answer)
+=======
+>>>>>>> 8504ffe24aa9c3efc9daf3bec5a9b1f6af818bd6
