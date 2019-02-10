@@ -1,11 +1,9 @@
 # Title: Solution to problem 1
+# Description: program asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
 # Context: Programmin and Scripting, GMIT, 2019
 # Author: Andrzej Kocielski
 # Date of creation: 07-02-2019
-# Last update: 07-02-2019
-
-<<<<<<< HEAD
-# Description: program asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
+# Last update: 09-02-2019
 
 ###
 
@@ -15,17 +13,15 @@ answer = 0
 i = 1
 
 # Asking for user's input
-input_number = int(input("Give me a positive integer: ")) # is it right way to convert string (which is default type of input) into integer?
+input_number = int(input("Give me a positive integer: ")) #assigns integer type to the input - why is it string by default? How can I check if the input is a numeral?
 
-# Positive integer check -----unfinished yet
-print ("You typed: ", input_number)
+# Positive integer check
+if (input_number < 1):
+  print("You typed:", input_number, "Please give me a positive integer, e.g. 11.")
 
-# Summing up
-while i <= input_number:
-  answer = answer + i
-  i += 1 # increments value of i by one (for some reasons i++ does not work)
-
-# Prins answer on screen
-print ("The sum of all numbers between 1 and",input_number, "equals:",answer)
-=======
->>>>>>> 8504ffe24aa9c3efc9daf3bec5a9b1f6af818bd6
+else:
+  # Summing up
+  while i <= input_number:
+    answer = answer + i
+    i += 1 # increments value of i by one (for some reasons i++ does not work)
+  print ("The sum of all numbers between 1 and",input_number, "equals:",answer) # Prins answer on screen
