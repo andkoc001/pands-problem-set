@@ -1,9 +1,10 @@
 # Title: Solution to problem 1
+# Context: Programming and Scripting, GMIT, 2019
 # Description: program asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
-# Context: Programmin and Scripting, GMIT, 2019
 # Author: Andrzej Kocielski
+# Email: G00376291@gmit.ie
 # Date of creation: 07-02-2019
-# Last update: 09-02-2019
+# Last update: 10-02-2019
 
 ###
 
@@ -24,4 +25,4 @@ else:
   while i <= input_number:
     answer = answer + i
     i += 1 # increments value of i by one (for some reasons i++ does not work)
-  print ("The sum of all numbers between 1 and",input_number, "equals:",answer) # Prins answer on screen
+  print ("The sum of all numbers between 1 and",input_number, "equals:",answer) # Prints answer on screen
