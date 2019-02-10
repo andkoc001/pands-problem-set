@@ -1,6 +1,9 @@
 pands-problem-set
-Programming and Scripting course - answers to problem set - GMIT 2019
+Programming and Scripting course - problems set - GMIT 2019
 Andrzej Kocielski
+Email: G00376291@gmit.ie
+
+Note: For assignment, please use the programs with the names as suggested in the problem list, e.g. sumupto.py as an answer to problem 1.
 
 Problems:
 1. Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
