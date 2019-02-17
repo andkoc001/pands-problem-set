@@ -13,5 +13,5 @@ upper_limit = 10000
 
 for n in range(lower_limit, upper_limit):
     if n % 6 == 0:  # first level that filters numbers divisible by 6
-        if n % 12 == 0:  # second levevl filter for numbers divisible by 12
+        if n % 12 != 0:  # second levevl filter for numbers _not divisible by 12
             print(n)
