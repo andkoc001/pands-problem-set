@@ -1,5 +1,5 @@
 pands-problem-set
-Programming and Scripting course - problems set - GMIT 2019
+Programming and Scripting course - list of problems - GMIT 2019
 Andrzej Kocielski
 Email: G00376291@gmit.ie
 
@@ -34,8 +34,6 @@ etc
 $ python collatz.py
 Please enter a positive integer: 10
 10 5 16 8 4 2 1
-Page 3 of 4Programming and Scripting
-Problem Set 2019
 
 5. Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime.
 
