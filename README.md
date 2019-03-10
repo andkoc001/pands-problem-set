@@ -1,11 +1,16 @@
-pands-problem-set
-Programming and Scripting course - list of problems - GMIT 2019
-Andrzej Kocielski
+# Problem set solutions - pands-problem-set
+
+Author: Andrzej Kocielski
+github login: andkoc001
 Email: G00376291@gmit.ie
+
+This repository containes my solutions to the Problem Set for the module Programming and Scripting course - GMIT 2019.
+See here for the Problem Set instructions:
+https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 
 Note: For assignment, please use the programs with the names as suggested in the problem list, e.g. sumupto.py as an answer to problem 1.
 
-Problems:
+Problems description:
 1. Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
 
 $ python sumupto.py
