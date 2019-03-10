@@ -8,4 +8,14 @@
 
 ###
 
-#
+# Asking for user's input and assigns float type to the input
+number = float(input("Give enter a positive number: "))
+
+# Intermediate check - prints out user's entry
+print(number)
+
+# Calculate square root of the entered number
+sqrt = number**0.5
+
+# Intermediate check - prints out square root
+print(sqrt)
