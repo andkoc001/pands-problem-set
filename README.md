@@ -1,15 +1,14 @@
-# Solutions to Problem Set, Programming and Scripting module, GMIT 2019
+# Problem set solutions - pands-problem-set 2019
 
-Author: Andrzej Kocielski
-github login: andkoc001
+Author: Andrzej Kocielski,
+github login: andkoc001,
 Email: G00376291@gmit.ie
 
-This repository containes my solutions to the Problem Set for the module Programming and Scripting course - GMIT 2019. See here for the Problem Set instructions: https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
-
-Note: For assignment, please use the programs with the names as suggested in the problem list, e.g. sumupto.py as an answer to problem 1.
+This repository containes my solutions to the Problem Set for the module Programming and Scripting course - GMIT 2019.
+See here for the Problem Set instructions:
+https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 
 Problems description:
-
 1. Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
 
 $ python sumupto.py
@@ -72,3 +71,4 @@ particular to interest me on shore, I thought I would sail about a
 ...
 
 10. Write a program that displays a plot of the functions x, x 2 and 2 x in the range [0, 4].
+
