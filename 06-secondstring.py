@@ -8,14 +8,28 @@
 
 ###
 
-# Prompt for the user; definition of a new variable for the user's input
-sentence = print("Please enter a sentence: ")
+# Prompt for the user; definition of a new variable "sentence" for the user's input
 
-# intermediate test of the program - prints out the user's input
-print(sentence)
+# Intermediate test of the program - predefined sentence
+# sentence = "1abc 2def 3geh 4ijk 5lkm 6nop 7rst 8uwz"
 
-# calls method split of "str" library in order to split the user input into single words, separated by a space
-str.split(sentence)
+sentence = input("Please enter a sentence: ")
 
-# intermediate test of the program - prints out the divided sentence
-print(sentence)[:]
+# Intermediate test of the program - prints out the user's input
+# print(type(sentence))
+# print(sentence)
+
+# Calls method split method in order to split the user input into single words, separated by a space
+sentence.split()
+
+# Assignment of number of words in the sentence to variable n
+n = len(sentence.split())
+
+# Intermediate test of the program - shows number of words in the sentence
+# print(n)
+
+# Prints out odd words from the sentence
+for i in range(n):
+    # Separation of odd and even words
+    if i % 2 == 0:
+        print(sentence.split()[i])
