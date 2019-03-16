@@ -28,8 +28,14 @@ n = len(sentence.split())
 # Intermediate test of the program - shows number of words in the sentence
 # print(n)
 
+# Joining the words by contanation - pre-definintion of empty (for now) variable, which will be subsequently updated as the program runs
+result_line = ""
+
 # Prints out odd words from the sentence
 for i in range(n):
     # Separation of odd and even words
     if i % 2 == 0:
-        print(sentence.split()[i])
+        # this was original command that returned words in separate lines
+        # print(sentence.split()[i])
+        result_line += (sentence.split()[i]) + " "
+print(result_line)
