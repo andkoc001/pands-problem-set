@@ -3,12 +3,14 @@
 
 #### Author: Andrzej Kocielski  
 #### Github login: andkoc001  
-#### Email: G00376291@gmit.ie  
+#### Email: G00376291@gmit.ie
+Created: 07-02-2019,
+Last update: 23-03-2019  
 
 ___
 
-This repository containes my solutions to the Problem Set for the Programming and Scripting module, Galway-Mayo Institute of Technology, 2019.    
-Tutor: dr. Ian McLoughlin
+This repository containes my solutions to the Problem Set for the Programming and Scripting module, Galway-Mayo Institute of Technology, 2019.  
+Lecturer: dr Ian McLoughlin
 
 The detailed Problem Set instructions:  
 https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
@@ -36,7 +38,7 @@ Please enter a positive integer: 10
 
 
 ___
-### [Problem 02 - Begins With T](../blob/master/02-begins-with-t.py)
+### [Problem 02 - Begins With T](../master/02-begins-with-t.py)
 Task description:
  >_Write a program that outputs whether or not today is a day that begins with the letter T. An example of running this program on a Thursday is as follows._
 
@@ -51,7 +53,7 @@ No - today does not begin with a T.
 
 
 ___
-### [Problem 03 - Divisors](../blob/master/03-divisors.py)
+### [Problem 03 - Divisors](../master/03-divisors.py)
 Task description:
  >_Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12._
 
@@ -67,7 +69,7 @@ etc
 
 
 ___
-### [Problem 04 - Collatz](../blob/master/04-collatz.py)
+### [Problem 04 - Collatz](../master/04-collatz.py)
 Task description:
  >_Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one._
 
@@ -82,7 +84,7 @@ Please enter a positive integer: 10
 
 
 ___
-### [Problem 05 - Primes](../blob/master/05-primes.py)
+### [Problem 05 - Primes](../master/05-primes.py)
 Task description:
  >_Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime._
 
@@ -96,7 +98,7 @@ That is a prime.
 
 
 ___
-### [Problem 06 - Second String](../blob/master/06-secondstring.py)
+### [Problem 06 - Second String](../master/06-secondstring.py)
 Task description:
  >_Write a program that takes a user input string and outputs every second word._
 
@@ -110,7 +112,7 @@ The brown jumps the dog
 
 
 ___
-### [Problem 07 - Square Root](../blob/master/07-squareroot.py)
+### [Problem 07 - Square Root](../master/07-squareroot.py)
 Task description:
  >_Write a program that that takes a positive floating point number as input and outputs an approximation of its square root._
 
@@ -125,7 +127,7 @@ The square root of 14.5 is approx. 3.8.
 
 
 ___
-### [Problem 08 - Date Time](../blob/master/08-datetime.py)
+### [Problem 08 - Date Time](../master/08-datetime.py)
 Task description:
  >_Write a program that outputs today’s date and time in the format ”Monday, January 10th 2019 at 1:15pm”._
 
@@ -138,7 +140,7 @@ Monday, January 10th 2019 at 1:15pm
 
 
 ___
-### [Problem 09 - Second](../blob/master/09-second.py)
+### [Problem 09 - Second](../master/09-second.py)
 Task description:
  >_Write a program that reads in a text file and outputs every second line. The program should take the filename from an argument on the command line._
 
@@ -159,7 +161,7 @@ particular to interest me on shore, I thought I would sail about a
 
 
 ___
-### [Problem 10 - Plot](../blob/master/10-plot.py)
+### [Problem 10 - Plot](../master/10-plot.py)
 Task description:
  >_Write a program that displays a plot of the functions x, x 2 and 2 x in the range [0, 4]._
 
