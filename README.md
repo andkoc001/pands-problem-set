@@ -29,14 +29,20 @@ Task description:
 Solution: https://github.com/andkoc001/pands-problem-set/blob/master/01-sumupto.py
 
 
+This is an iterative repetition problem. It can be solved taking advantages of loop and conditions. The very problem was used in the lacture video as an example for demonstration how to control the flow of the program with the help of `while` operator.
 
+I took the same approach my solution, but additonally I predefined some variables (`input_numner = 3`, `answer = 0` and `i = 1`). I also included a check whether the user-entered number is positive - when condition `if (input_number < 1)` is `True`, the program quites with an appropriate error message.
+
+When the number is input by the user the program changes its type from default `str` to `int`.
+
+
+Example:
 ```Python
-$ python sumupto.py
-
+$ python 01-sumupto.py
 Please enter a positive integer: 10
-
 55
 ```
+
 
 ___
 ### Problem 02 - [Begins With T](../master/02-begins-with-t.py)
@@ -50,7 +56,6 @@ An example of running it on a Wednesday is as follows.
 
 ```Python
 $ python begins-with-t.py
-
 No - today does not begin with a T.
 ```
 
@@ -61,9 +66,9 @@ Task description:
 
 Solution: https://github.com/andkoc001/pands-problem-set/blob/master/03-divisors.py
 
+Example:
 ```Python
 $ python divisors.py
-
 1002
 1014
 1026
@@ -79,11 +84,10 @@ Task description:
 
 Solution: https://github.com/andkoc001/pands-problem-set/blob/master/04-collatz.py
 
+Example:
 ```Python
 $ python collatz.py
-
 Please enter a positive integer: 10
-
 10 5 16 8 4 2 1
 ```
 
@@ -94,11 +98,10 @@ Task description:
 
 Solution: https://github.com/andkoc001/pands-problem-set/blob/master/05-primes.py
 
+Example:
 ```Python
 $ python primes.py
-
 Please enter a positive integer: 19
-
 That is a prime.
 ```
 
@@ -109,11 +112,10 @@ Task description:
 
 Solution: https://github.com/andkoc001/pands-problem-set/blob/master/06-secondstring.py
 
+Example:
 ```Python
 $ python secondstring.py
-
 Please enter a sentence: The quick brown fox jumps over the lazy dog.
-
 The brown jumps the dog
 ```
 
@@ -125,13 +127,13 @@ Task description:
 
 Solution: https://github.com/andkoc001/pands-problem-set/blob/master/07-squareroot.py
 
+Example:
 ```Python
 $ python squareroot.py
-
 Please enter a positive number: 14.5
-
 The square root of 14.5 is approx. 3.8.
 ```
+
 
 ___
 ### Problem 08 - [Date Time](../master/08-datetime.py)
@@ -141,9 +143,9 @@ Task description:
 
 Solution: https://github.com/andkoc001/pands-problem-set/blob/master/08-datetime.py
 
+Example:
 ```Python
 $ python datetime.py
-
 Monday, January 10th 2019 at 1:15pm
 ```
 
@@ -155,17 +157,14 @@ Task description:
 
 Solution: https://github.com/andkoc001/pands-problem-set/blob/master/09-second.py
 
+
+Example:
 ```Python
 $ python second.py moby-dick.txt
-
 Title: Moby Dick; or The Whale
-
 CHAPTER 1
-
 Call me Ishmael. Some years ago--never mind how long
-
 particular to interest me on shore, I thought I would sail about a
-
 ...
 ```
 
