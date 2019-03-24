@@ -34,9 +34,9 @@ I took the same approach my solution, but additonally I predefined some variable
 
 When the number is input by the user the program changes its type from default `str` to `int`.
 
-Example:
+Example (verbatim from Problem Set instructions):
 
-```Python
+```txt
 $ python 01-sumupto.py
 Please enter a positive integer: 10
 55
@@ -57,7 +57,7 @@ The solution required also conditional check. I performed a singel 'if' check fo
 
 An example of running it on a Wednesday is as follows.
 
-```Python
+```txt
 $ python begins-with-t.py
 No - today does not begin with a T.
 ```
@@ -71,9 +71,11 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/03-divisors.py>
 
+Further practice with loops, and boolean checks. This time the conditional checks were nested one inside the other. In the first level the program verifies whether the currently processed number inside `for` loop `is` divisable by 6, by checking whether modulo of the division equals 0 (`n % 6 == 0`). If so, another check is performed - wheteher the number `is not` divisable by 12 (whether modulo of the division is different from 0, `n % 12 != 0`). In such a case the number is printed out and the `for` loop moves to the next number in the predefined range.
+
 Example:
 
-```Python
+```txt
 $ python divisors.py
 1002
 1014
@@ -91,9 +93,11 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/04-collatz.py>
 
+To solve this problem, user's input is first converted to `integer` type. Next, through iteration process the input number is processed as per algorithm in the task description as long as the current value of the number reaches `1` - this is termination condition for the program. This is governed by the `while` loop. Inside the loop, the program checks logical condition (`number % 2 == 0`) and depending on the result, performs different computation. This is done with the help of `if - else` operators. After each cycle, the current value is printed out, so it is easy to track the progress of the algorithm.
+
 Example:
 
-```Python
+```txt
 $ python collatz.py
 Please enter a positive integer: 10
 10 5 16 8 4 2 1
@@ -108,9 +112,13 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/05-primes.py>
 
+In addition to solution to the previous problems, this one utilises the `break` functionality, which allows for escape from the loop.
+
+For each integer number `i` incremented from 2 up to `n` (entered by the user), the program checks whether the input number is divsable by the current `i` without reminder. If so, the value of initially predefined variable `x = 0` is changed `1`. In my solution this is the 'break' condition for the loop.
+
 Example:
 
-```Python
+```txt
 $ python primes.py
 Please enter a positive integer: 19
 That is a prime.
@@ -127,7 +135,7 @@ Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/06-seconds
 
 Example:
 
-```Python
+```txt
 $ python secondstring.py
 Please enter a sentence: The quick brown fox jumps over the lazy dog.
 The brown jumps the dog
@@ -144,7 +152,7 @@ Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/07-squarer
 
 Example:
 
-```Python
+```txt
 $ python squareroot.py
 Please enter a positive number: 14.5
 The square root of 14.5 is approx. 3.8.
@@ -161,7 +169,7 @@ Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/08-datetim
 
 Example:
 
-```Python
+```txt
 $ python datetime.py
 Monday, January 10th 2019 at 1:15pm
 ```
@@ -177,7 +185,7 @@ Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/09-second.
 
 Example:
 
-```Python
+```txt
 $ python second.py moby-dick.txt
 Title: Moby Dick; or The Whale
 CHAPTER 1
