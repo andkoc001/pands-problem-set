@@ -51,6 +51,10 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/02-begins-with-t.py>
 
+This problem required importing `datetime` library and application of `today()` and `weekday()` methods. One of the difficulties of solving the problem was the realisation of the fact that the weekdays numbering begins with 0 (Monday) and goes up to 6 (Sunday).
+
+The solution required also conditional check. I performed a singel 'if' check for two conditions using boolean `and` opeartor.
+
 An example of running it on a Wednesday is as follows.
 
 ```Python
@@ -199,3 +203,4 @@ ___
 - Python 3 tutorial documentation: <https://docs.python.org/3/tutorial/>
 - Mastering Markdown: <https://guides.github.com/features/mastering-markdown/>
 - Markdownlint Rules: <https://github.com/DavidAnson/markdownlint/blob/v0.12.0/doc/Rules.md>
+- Python puzzles: <https://blog.finxter.com/>
