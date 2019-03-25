@@ -9,13 +9,13 @@ Last update: 25-03-2019
 
 ___
 
-This repository containes my solutions to the Problem Set for the Programming and Scripting module, Galway-Mayo Institute of Technology, 2019.  
+This repository contains my solutions to the Problem Set for the Programming and Scripting module, Galway-Mayo Institute of Technology, 2019.  
 Lecturer: dr Ian McLoughlin
 
 The detailed Problem Set instructions:  
 <https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf>  
 
-Disclaimer: As it is my first contact with Python, my codes are naturally imperfect. However, some comments or redundant pices of code, etc. are left intentionally for the purpose of learning, testing and future reference.
+Disclaimer: As it is my first contact with Python, my codes are naturally imperfect. However, some comments or redundant pieces of code, etc. are left intentionally for the purpose of learning, testing and future reference.
 
 ___
 
@@ -28,13 +28,13 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/01-sumupto.py>
 
-This is an iterative repetition problem. It can be solved taking advantages of loop and conditions. The very problem was used in the lacture video as an example for demonstration how to control the flow of the program with the help of `while` operator.
+This is an iterative repetition problem. It can be solved taking advantages of loop and conditions. The very problem was used in the lecture video as an example for demonstration how to control the flow of the program with the help of `while` operator.
 
-I took the same approach my solution, but additonally I predefined some variables (`input_numner = 3`, `answer = 0` and `i = 1`). I also included a check whether the user-entered number is positive - when condition `if (input_number < 1)` is `True`, the program quites with an appropriate error message.
+I took the same approach my solution, but additionally I predefined some variables (`input_numner = 3`, `answer = 0` and `i = 1`). I also included a check whether the user-entered number is positive - when condition `if (input_number < 1)` is `True`, the program quits with an appropriate error message.
 
 When the number is input by the user the program changes its type from default `str` to `int`.
 
-Example (verbatim from Problem Set instructions):
+Example (examples verbatim from Problem Set instructions):
 
 ```txt
 $ python 01-sumupto.py
@@ -53,7 +53,7 @@ Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/02-begins-
 
 This problem required importing `datetime` library and application of `today()` and `weekday()` methods. One of the difficulties of solving the problem was the realisation of the fact that the weekdays numbering begins with 0 (Monday) and goes up to 6 (Sunday).
 
-The solution required also conditional check. I performed a singel 'if' check for two conditions using boolean `and` opeartor.
+The solution required also conditional check. I performed a single 'if' check for two conditions using boolean `and` operator.
 
 An example of running it on a Wednesday is as follows.
 
@@ -71,7 +71,7 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/03-divisors.py>
 
-Further practice with loops, and boolean checks. This time the conditional checks were nested one inside the other. In the first level the program verifies whether the currently processed number inside `for` loop `is` divisable by 6, by checking whether modulo of the division equals 0 (`n % 6 == 0`). If so, another check is performed - wheteher the number `is not` divisable by 12 (whether modulo of the division is different from 0, `n % 12 != 0`). In such a case the number is printed out and the `for` loop moves to the next number in the predefined range.
+Further practice with loops, and boolean checks. This time the conditional checks were nested one inside the other. In the first level the program verifies whether the currently processed number inside `for` loop `is` divisible by 6, by checking whether modulo of the division equals 0 (`n % 6 == 0`). If so, another check is performed - whether the number `is not` divisible by 12 (whether modulo of the division is different from 0, `n % 12 != 0`). In such a case the number is printed out and the `for` loop moves to the next number in the predefined range.
 
 Example:
 
@@ -112,9 +112,7 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/05-primes.py>
 
-In addition to solution to the previous problems, this one utilises the `break` functionality, which allows for escape from the loop.
-
-For each integer number `i` incremented from 2 up to `n` (entered by the user), the program checks whether the input number is divsable by the current `i` without reminder. If so, the value of initially predefined variable `x = 0` is changed `1`. In my solution this is the 'break' condition for the loop.
+In addition to solution to the previous problems, this one utilises the `break` functionality, which allows for escape from the loop. For each integer number `i` incremented from 2 up to `n` (entered by the user), the program checks whether the input number is divisible by the current `i` without reminder. If so, the value of initially predefined variable `x = 0` is changed `1`. In my solution this is the 'break' condition for the loop.
 
 Example:
 
@@ -133,6 +131,14 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/06-secondstring.py>
 
+This problem focuses on string manipulation. After many trials and errors and reading about Python, I finally reached an expected result. What I did to solve it was to split the user input sentence into single words using `split()` method. I used the default separator, i.e. a whitespace. Next, I assigned the number of words to variable `n`.
+
+Following that, I defined another `string` variable, temporarily empty `result_line = ""`. This variable would subsequently be used to overcome the situation whereby the program returns the result in new lines for each word.
+
+Moving on, I created a `for` loop in range of `n`. In each loop, the program checks whether the current iteration is divisible by 2. If so, the corresponding word is added at the end of the `result_line`, using `+=` notation, and moves on to the next iteration cycle.
+
+Finally, the end result - every second word of the entered sentence - is printed out on the screen.
+
 Example:
 
 ```txt
@@ -149,6 +155,10 @@ Task description:
  >_Write a program that that takes a positive floating point number as input and outputs an approximation of its square root._
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/07-squareroot.py>
+
+This problem introduces to `float` type and some of the related methods. My program asks user to enter a positive number and straight after that converts it into a `float` type.
+
+The square root of the entered number is computed by taking the number to the power of `0.5`, and then rounded to single digit after the floating point, using the following syntax: `float("%0.1f" % (number**0.5))`.
 
 Example:
 
@@ -167,6 +177,23 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/08-datetime.py>
 
+Solution to this problem again requires import of `datetime` library. Subsequently, the date and time obtained with `datetime.today()` method is formatted to requested form, using the `f"{}"` notation.
+
+My approach to the problem is a bit labours, as some sections of the code are repeated several times. This could be surely refined and the entire code could be shortened. On the other hand, I can follow the syntax.
+
+First, I run loops where for each week day number the day name was assigned, as per example below.
+
+```Python
+if week_day == 0:
+    week_day_name = "Monday"
+```
+
+Similarly, month name was assigned to the month number.
+
+Next, I added ordinal number ending to today's calendar day. Again, I used `if, elif, else` conditional check for all the possible scenarios.
+
+After that, I converted current hour to 12-hour time notation with either 'am' or 'pm' postfix (hour changed to `str` type). That was done by checking whether the current hour is lesser or equal to 12, if not, the current hour was lessen by 12.
+
 Example:
 
 ```txt
@@ -182,6 +209,14 @@ Task description:
  >_Write a program that reads in a text file and outputs every second line. The program should take the filename from an argument on the command line._
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/09-second.py>
+
+The challenge of solving this problem was to open an external text file in the command line. That was possible with help of `sys` library imported in the top of the code.
+
+My program performs so, by using one of the `sys` methods: `.argv` with attribute `1`.
+
+Subsequently, I opened the file by calling the `open()` method and assigned it to variable `f`. Then, I defined a variable which value was a line content: `verse = f.readline()`, and another variable that counts the lines. I used loop `while` to check if the current line is even - if so its content is printed on screen, and the loop moves on the the next iteration.
+
+At the end of the program I closed the file with `close()` method.
 
 Example:
 
@@ -203,12 +238,28 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/10-plot.py>
 
+To solve this problem, I used an external library `matplotlib` and its subset `pyplot`.
+
+I also defined a method, with two parameters: `x` and `y`. My method calls the `.plot` method with `x` and `y` arguments, and also the `.show` method to print the result on graph.
+
+In the program body, the plotting range was assumed (as per task description). For each requested function (y=x, y=x^2, y=2^x), I run two loops - for each x value, corresponding y value was calculated.
+
+The results are shown in the screens below.
+
+| Function | Graph                       |
+| -------- | --------------------------- |
+| y = x    | ![y = x](/10-plot-x.png)    |
+| y = x^2  | ![y = x^2](/10-plot-x2.png) |
+| y = 2^x  | ![y = 2^x](/10-plot-2x.png) |
+
 ___
 
 ## References
 
 - Module materials: <https://learnonline.gmit.ie/course/view.php?id=1588#section-0>
 - Python 3 tutorial documentation: <https://docs.python.org/3/tutorial/>
+- Python reference: <https://www.w3schools.com/python/python_reference.asp>
+- Matplotlib documentation: <https://matplotlib.org/contents.html>
 - Mastering Markdown: <https://guides.github.com/features/mastering-markdown/>
 - Markdownlint Rules: <https://github.com/DavidAnson/markdownlint/blob/v0.12.0/doc/Rules.md>
 - Python puzzles: <https://blog.finxter.com/>
