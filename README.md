@@ -15,7 +15,7 @@ Lecturer: dr Ian McLoughlin
 The detailed Problem Set instructions:  
 <https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf>  
 
-Disclaimer: As it is my first contact with Python, my codes are naturally imperfect. However, some comments or redundant pieces of code, etc. are left intentionally for the purpose of learning, testing and future reference.
+Note: As this course is my first contact with Python, my codes are naturally imperfect. However, some comments, redundant pieces of code, etc. are left intentionally for the purpose of learning, testing and future reference.
 
 ___
 
@@ -51,7 +51,7 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/02-begins-with-t.py>
 
-This problem required importing `datetime` library and application of `today()` and `weekday()` methods. One of the difficulties of solving the problem was the realisation of the fact that the weekdays numbering begins with 0 (Monday) and goes up to 6 (Sunday).
+This problem required importing `datetime` module from standard Python library and application of `today()` and `weekday()` methods. One of the difficulties of solving the problem was the realisation of the fact that the weekdays numbering begins with 0 (Monday) and goes up to 6 (Sunday).
 
 The solution required also conditional check. I performed a single 'if' check for two conditions using boolean `and` operator.
 
@@ -177,7 +177,7 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/08-datetime.py>
 
-Solution to this problem again requires import of `datetime` library. Subsequently, the date and time obtained with `datetime.today()` method is formatted to requested form, using the `f"{}"` notation.
+Solution to this problem again requires import of `datetime` module. Subsequently, the date and time obtained with `datetime.today()` method is formatted to requested form, using the `f"{}"` notation.
 
 My approach to the problem is a bit labours, as some sections of the code are repeated several times. This could be surely refined and the entire code could be shortened. On the other hand, I can follow the syntax.
 
@@ -210,7 +210,7 @@ Task description:
 
 Solution: <https://github.com/andkoc001/pands-problem-set/blob/master/09-second.py>
 
-The challenge of solving this problem was to open an external text file in the command line. That was possible with help of `sys` library imported in the top of the code.
+The challenge of solving this problem was to open an external text file in the command line. That was possible with help of `sys` module imported in the top of the code.
 
 My program performs so, by using one of the `sys` methods: `.argv` with attribute `1`.
 
@@ -258,8 +258,17 @@ ___
 
 - Module materials: <https://learnonline.gmit.ie/course/view.php?id=1588#section-0>
 - Python 3 tutorial documentation: <https://docs.python.org/3/tutorial/>
+- A Whirlpool Tour of Python by Jake VanderPlas: <https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf>
+- The Coder's Apprentice by Pieter Spronock: <http://spronck.net/pythonbook/pythonbook.pdf>
 - Python reference: <https://www.w3schools.com/python/python_reference.asp>
+- Modules vs Packages vs Libraries in Python: <https://knowpapa.com/modpaclib-py/>
+- Anaconda User Guide: <https://docs.anaconda.com/anaconda/user-guide/>
 - Matplotlib documentation: <https://matplotlib.org/contents.html>
+- 10 Minutes to Pandas: <https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html>
+- Pyplot Tutorial: <https://matplotlib.org/users/pyplot_tutorial.html>
+- Data visuaisation in Python: <https://medium.com/python-pandemonium/data-visualization-in-python-line-graph-in-matplotlib-9dfd0016d180>
+- Stack Overflow forum: <https://stackoverflow.com>
+- Python puzzles: <https://blog.finxter.com/>
+- An Introduction to Version Control Using GitHub Desktop: <https://programminghistorian.org/en/lessons/getting-started-with-github-desktop>
 - Mastering Markdown: <https://guides.github.com/features/mastering-markdown/>
 - Markdownlint Rules: <https://github.com/DavidAnson/markdownlint/blob/v0.12.0/doc/Rules.md>
-- Python puzzles: <https://blog.finxter.com/>
